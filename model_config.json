@@ -1,0 +1,30 @@
+{
+  "model": "log_core",
+  "target": 0.68,
+  "calm_add": 0.045,
+  "development_end": "20260903",
+  "holdout_dates": 18,
+  "warmup_dates": 16,
+  "refit_dates": 5,
+  "seed": 20261126,
+  "components": [
+    {
+      "kind": "logistic",
+      "features": [
+        "daily_iv",
+        "iv_1m",
+        "iv_to_1m",
+        "iv_z_smooth",
+        "prev_range"
+      ],
+      "half_life": 35,
+      "params": {
+        "C": 0.15
+      }
+    }
+  ],
+  "component_weights": [
+    1.0
+  ],
+  "calibration": "none"
+}

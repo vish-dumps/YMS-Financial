@@ -1,0 +1,1097 @@
+{
+  "rows": 4850,
+  "date_count": 97,
+  "stock_count": 50,
+  "schema": {
+    "date": "string",
+    "name": "string",
+    "vix_asof": "string",
+    "pclose": "float",
+    "phi": "float",
+    "plo": "float",
+    "vix": "float",
+    "vix_1m": "float",
+    "vix_3m": "float",
+    "vix_6m": "float",
+    "vix_1y": "float",
+    "vix_zscore_smooth": "float",
+    "vix_zscore_raw": "float",
+    "pvolume": "float",
+    "mddv_20": "float"
+  },
+  "duplicates": 0,
+  "empty_by_column": {
+    "date": 0,
+    "name": 0,
+    "vix_asof": 1450,
+    "pclose": 1450,
+    "phi": 1850,
+    "plo": 1850,
+    "vix": 1468,
+    "vix_1m": 1450,
+    "vix_3m": 1450,
+    "vix_6m": 1450,
+    "vix_1y": 1450,
+    "vix_zscore_smooth": 1468,
+    "vix_zscore_raw": 1468,
+    "pvolume": 0,
+    "mddv_20": 0
+  },
+  "infinite_by_column": {
+    "pclose": 0,
+    "phi": 0,
+    "plo": 0,
+    "pvolume": 0,
+    "mddv_20": 0,
+    "vix": 0,
+    "vix_1m": 0,
+    "vix_3m": 0,
+    "vix_6m": 0,
+    "vix_1y": 0,
+    "vix_zscore_smooth": 0,
+    "vix_zscore_raw": 0
+  },
+  "unparseable_by_column": {
+    "pclose": 0,
+    "phi": 0,
+    "plo": 0,
+    "pvolume": 0,
+    "mddv_20": 0,
+    "vix": 0,
+    "vix_1m": 0,
+    "vix_3m": 0,
+    "vix_6m": 0,
+    "vix_1y": 0,
+    "vix_zscore_smooth": 0,
+    "vix_zscore_raw": 0
+  },
+  "positive_rate": 0.41154639175257735,
+  "positive_rate_usable": 0.4293702177751619,
+  "fully_masked_dates": 29,
+  "partial_primary_rows_on_usable_dates": 414,
+  "primary_rows_available": 3398,
+  "by_stock": {
+    "ADANIENT": {
+      "event_rate": 0.5051546391752577,
+      "rows": 97
+    },
+    "ADANIPORTS": {
+      "event_rate": 0.4948453608247423,
+      "rows": 97
+    },
+    "APOLLOHOSP": {
+      "event_rate": 0.28865979381443296,
+      "rows": 97
+    },
+    "ASIANPAINT": {
+      "event_rate": 0.41237113402061853,
+      "rows": 97
+    },
+    "AXISBANK": {
+      "event_rate": 0.3917525773195876,
+      "rows": 97
+    },
+    "BAJAJ-AUTO": {
+      "event_rate": 0.3711340206185567,
+      "rows": 97
+    },
+    "BAJAJFINSV": {
+      "event_rate": 0.3402061855670103,
+      "rows": 97
+    },
+    "BAJFINANCE": {
+      "event_rate": 0.5670103092783505,
+      "rows": 97
+    },
+    "BEL": {
+      "event_rate": 0.38144329896907214,
+      "rows": 97
+    },
+    "BHARTIARTL": {
+      "event_rate": 0.25773195876288657,
+      "rows": 97
+    },
+    "CIPLA": {
+      "event_rate": 0.23711340206185566,
+      "rows": 97
+    },
+    "COALINDIA": {
+      "event_rate": 0.38144329896907214,
+      "rows": 97
+    },
+    "DRREDDY": {
+      "event_rate": 0.36082474226804123,
+      "rows": 97
+    },
+    "EICHERMOT": {
+      "event_rate": 0.38144329896907214,
+      "rows": 97
+    },
+    "ETERNAL": {
+      "event_rate": 0.6494845360824743,
+      "rows": 97
+    },
+    "GRASIM": {
+      "event_rate": 0.31958762886597936,
+      "rows": 97
+    },
+    "HCLTECH": {
+      "event_rate": 0.5051546391752577,
+      "rows": 97
+    },
+    "HDFCBANK": {
+      "event_rate": 0.41237113402061853,
+      "rows": 97
+    },
+    "HDFCLIFE": {
+      "event_rate": 0.4329896907216495,
+      "rows": 97
+    },
+    "HINDALCO": {
+      "event_rate": 0.5463917525773195,
+      "rows": 97
+    },
+    "HINDUNILVR": {
+      "event_rate": 0.35051546391752575,
+      "rows": 97
+    },
+    "ICICIBANK": {
+      "event_rate": 0.31958762886597936,
+      "rows": 97
+    },
+    "INDIGO": {
+      "event_rate": 0.5876288659793815,
+      "rows": 97
+    },
+    "INFY": {
+      "event_rate": 0.5257731958762887,
+      "rows": 97
+    },
+    "ITC": {
+      "event_rate": 0.17525773195876287,
+      "rows": 97
+    },
+    "JIOFIN": {
+      "event_rate": 0.4536082474226804,
+      "rows": 97
+    },
+    "JSWSTEEL": {
+      "event_rate": 0.41237113402061853,
+      "rows": 97
+    },
+    "KOTAKBANK": {
+      "event_rate": 0.41237113402061853,
+      "rows": 97
+    },
+    "LT": {
+      "event_rate": 0.36082474226804123,
+      "rows": 97
+    },
+    "M&M": {
+      "event_rate": 0.4845360824742268,
+      "rows": 97
+    },
+    "MARUTI": {
+      "event_rate": 0.38144329896907214,
+      "rows": 97
+    },
+    "MAXHEALTH": {
+      "event_rate": 0.5360824742268041,
+      "rows": 97
+    },
+    "NESTLEIND": {
+      "event_rate": 0.28865979381443296,
+      "rows": 97
+    },
+    "NTPC": {
+      "event_rate": 0.29896907216494845,
+      "rows": 97
+    },
+    "ONGC": {
+      "event_rate": 0.28865979381443296,
+      "rows": 97
+    },
+    "POWERGRID": {
+      "event_rate": 0.3711340206185567,
+      "rows": 97
+    },
+    "RELIANCE": {
+      "event_rate": 0.31958762886597936,
+      "rows": 97
+    },
+    "SBILIFE": {
+      "event_rate": 0.38144329896907214,
+      "rows": 97
+    },
+    "SBIN": {
+      "event_rate": 0.422680412371134,
+      "rows": 97
+    },
+    "SHRIRAMFIN": {
+      "event_rate": 0.6907216494845361,
+      "rows": 97
+    },
+    "SUNPHARMA": {
+      "event_rate": 0.20618556701030927,
+      "rows": 97
+    },
+    "TATACONSUM": {
+      "event_rate": 0.3917525773195876,
+      "rows": 97
+    },
+    "TATASTEEL": {
+      "event_rate": 0.44329896907216493,
+      "rows": 97
+    },
+    "TCS": {
+      "event_rate": 0.4639175257731959,
+      "rows": 97
+    },
+    "TECHM": {
+      "event_rate": 0.5567010309278351,
+      "rows": 97
+    },
+    "TITAN": {
+      "event_rate": 0.41237113402061853,
+      "rows": 97
+    },
+    "TMPV": {
+      "event_rate": 0.4845360824742268,
+      "rows": 97
+    },
+    "TRENT": {
+      "event_rate": 0.5257731958762887,
+      "rows": 97
+    },
+    "ULTRACEMCO": {
+      "event_rate": 0.36082474226804123,
+      "rows": 97
+    },
+    "WIPRO": {
+      "event_rate": 0.4329896907216495,
+      "rows": 97
+    }
+  },
+  "by_date": {
+    "20260304": {
+      "event_rate": 0.88,
+      "market_iv": 1.5484705914730288,
+      "paired_rows": 50
+    },
+    "20260305": {
+      "event_rate": 0.5,
+      "market_iv": 1.7548865473046633,
+      "paired_rows": 50
+    },
+    "20260306": {
+      "event_rate": 0.38,
+      "market_iv": 1.5944873838653506,
+      "paired_rows": 50
+    },
+    "20260309": {
+      "event_rate": 0.92,
+      "market_iv": 1.6082728835795002,
+      "paired_rows": 50
+    },
+    "20260311": {
+      "event_rate": 0.52,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260312": {
+      "event_rate": 0.56,
+      "market_iv": 1.8353962705863331,
+      "paired_rows": 50
+    },
+    "20260313": {
+      "event_rate": 0.68,
+      "market_iv": 1.8903622795484332,
+      "paired_rows": 50
+    },
+    "20260316": {
+      "event_rate": 0.54,
+      "market_iv": 1.9792304641577871,
+      "paired_rows": 50
+    },
+    "20260318": {
+      "event_rate": 0.44,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260319": {
+      "event_rate": 0.94,
+      "market_iv": 1.7028217358735622,
+      "paired_rows": 50
+    },
+    "20260320": {
+      "event_rate": 0.66,
+      "market_iv": 1.825787287762909,
+      "paired_rows": 50
+    },
+    "20260323": {
+      "event_rate": 0.94,
+      "market_iv": 1.8386886080425318,
+      "paired_rows": 50
+    },
+    "20260324": {
+      "event_rate": 0.86,
+      "market_iv": 2.194405780701774,
+      "paired_rows": 50
+    },
+    "20260327": {
+      "event_rate": 0.58,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260401": {
+      "event_rate": 0.94,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260402": {
+      "event_rate": 0.9,
+      "market_iv": 2.2351763490468954,
+      "paired_rows": 50
+    },
+    "20260406": {
+      "event_rate": 0.58,
+      "market_iv": 2.2857507617311814,
+      "paired_rows": 50
+    },
+    "20260408": {
+      "event_rate": 0.86,
+      "market_iv": 2.222457135632528,
+      "paired_rows": 49
+    },
+    "20260409": {
+      "event_rate": 0.38,
+      "market_iv": 1.8633511460031624,
+      "paired_rows": 50
+    },
+    "20260410": {
+      "event_rate": 0.52,
+      "market_iv": 1.910729654001459,
+      "paired_rows": 50
+    },
+    "20260413": {
+      "event_rate": 0.76,
+      "market_iv": 1.8743735094574396,
+      "paired_rows": 50
+    },
+    "20260415": {
+      "event_rate": 0.78,
+      "market_iv": 1.999940377199949,
+      "paired_rows": 50
+    },
+    "20260417": {
+      "event_rate": 0.28,
+      "market_iv": 1.9001287256095072,
+      "paired_rows": 50
+    },
+    "20260420": {
+      "event_rate": 0.2,
+      "market_iv": 1.8380286653206075,
+      "paired_rows": 50
+    },
+    "20260424": {
+      "event_rate": 0.4,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260427": {
+      "event_rate": 0.48,
+      "market_iv": 1.9293610059168091,
+      "paired_rows": 50
+    },
+    "20260428": {
+      "event_rate": 0.34,
+      "market_iv": 1.9928769090217668,
+      "paired_rows": 50
+    },
+    "20260430": {
+      "event_rate": 0.7,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260506": {
+      "event_rate": 0.56,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260508": {
+      "event_rate": 0.22,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260511": {
+      "event_rate": 0.44,
+      "market_iv": 1.69445780564668,
+      "paired_rows": 50
+    },
+    "20260512": {
+      "event_rate": 0.68,
+      "market_iv": 1.7589231029041004,
+      "paired_rows": 50
+    },
+    "20260513": {
+      "event_rate": 0.34,
+      "market_iv": 1.7501686860930254,
+      "paired_rows": 50
+    },
+    "20260515": {
+      "event_rate": 0.42,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260518": {
+      "event_rate": 0.56,
+      "market_iv": 1.7410099227656939,
+      "paired_rows": 50
+    },
+    "20260522": {
+      "event_rate": 0.3,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260525": {
+      "event_rate": 0.44,
+      "market_iv": 1.6088662184815155,
+      "paired_rows": 50
+    },
+    "20260529": {
+      "event_rate": 0.72,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260601": {
+      "event_rate": 0.44,
+      "market_iv": 1.485577836830004,
+      "paired_rows": 50
+    },
+    "20260603": {
+      "event_rate": 0.36,
+      "market_iv": 1.5236972437710223,
+      "paired_rows": 50
+    },
+    "20260605": {
+      "event_rate": 0.3,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260609": {
+      "event_rate": 0.3,
+      "market_iv": 1.5171849782074665,
+      "paired_rows": 50
+    },
+    "20260611": {
+      "event_rate": 0.24,
+      "market_iv": 1.5550738217970461,
+      "paired_rows": 50
+    },
+    "20260612": {
+      "event_rate": 0.52,
+      "market_iv": 1.5321948632867013,
+      "paired_rows": 50
+    },
+    "20260617": {
+      "event_rate": 0.18,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260618": {
+      "event_rate": 0.2,
+      "market_iv": 1.5040198273719867,
+      "paired_rows": 50
+    },
+    "20260619": {
+      "event_rate": 0.26,
+      "market_iv": 1.532493931282381,
+      "paired_rows": 50
+    },
+    "20260624": {
+      "event_rate": 0.32,
+      "market_iv": 1.583797366405351,
+      "paired_rows": 50
+    },
+    "20260625": {
+      "event_rate": 0.36,
+      "market_iv": 1.624524719404851,
+      "paired_rows": 50
+    },
+    "20260701": {
+      "event_rate": 0.36,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260702": {
+      "event_rate": 0.28,
+      "market_iv": 1.6193786847796232,
+      "paired_rows": 50
+    },
+    "20260706": {
+      "event_rate": 0.22,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260707": {
+      "event_rate": 0.26,
+      "market_iv": 1.5416644059034166,
+      "paired_rows": 50
+    },
+    "20260710": {
+      "event_rate": 0.44,
+      "market_iv": 1.5187228404813313,
+      "paired_rows": 49
+    },
+    "20260715": {
+      "event_rate": 0.28,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260720": {
+      "event_rate": 0.32,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260721": {
+      "event_rate": 0.08,
+      "market_iv": 1.6458520180132474,
+      "paired_rows": 50
+    },
+    "20260724": {
+      "event_rate": 0.22,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260727": {
+      "event_rate": 0.34,
+      "market_iv": 1.6649948636845697,
+      "paired_rows": 50
+    },
+    "20260728": {
+      "event_rate": 0.28,
+      "market_iv": 1.6417434646432396,
+      "paired_rows": 50
+    },
+    "20260729": {
+      "event_rate": 0.38,
+      "market_iv": 1.6488772415378503,
+      "paired_rows": 50
+    },
+    "20260730": {
+      "event_rate": 0.3,
+      "market_iv": 1.55614002883692,
+      "paired_rows": 50
+    },
+    "20260731": {
+      "event_rate": 0.32,
+      "market_iv": 1.4740462791678577,
+      "paired_rows": 50
+    },
+    "20260804": {
+      "event_rate": 0.42,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260806": {
+      "event_rate": 0.22,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260807": {
+      "event_rate": 0.3,
+      "market_iv": 1.477717155282844,
+      "paired_rows": 50
+    },
+    "20260810": {
+      "event_rate": 0.14,
+      "market_iv": 1.4816811350091361,
+      "paired_rows": 50
+    },
+    "20260811": {
+      "event_rate": 0.2,
+      "market_iv": 1.4879414566413462,
+      "paired_rows": 50
+    },
+    "20260812": {
+      "event_rate": 0.2,
+      "market_iv": 1.5085929173852282,
+      "paired_rows": 50
+    },
+    "20260814": {
+      "event_rate": 0.22,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260819": {
+      "event_rate": 0.1,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260820": {
+      "event_rate": 0.12,
+      "market_iv": 1.3494967466955767,
+      "paired_rows": 50
+    },
+    "20260821": {
+      "event_rate": 0.1,
+      "market_iv": 1.3123639714946584,
+      "paired_rows": 50
+    },
+    "20260825": {
+      "event_rate": 0.12,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260826": {
+      "event_rate": 0.16,
+      "market_iv": 1.2876180058409874,
+      "paired_rows": 50
+    },
+    "20260827": {
+      "event_rate": 0.14,
+      "market_iv": 1.2332479448190394,
+      "paired_rows": 50
+    },
+    "20260828": {
+      "event_rate": 0.12,
+      "market_iv": 1.189602827343526,
+      "paired_rows": 50
+    },
+    "20260902": {
+      "event_rate": 0.34,
+      "market_iv": 1.2077177166025845,
+      "paired_rows": 50
+    },
+    "20260903": {
+      "event_rate": 0.1,
+      "market_iv": 1.274858301379465,
+      "paired_rows": 50
+    },
+    "20260916": {
+      "event_rate": 0.3,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260917": {
+      "event_rate": 0.3,
+      "market_iv": 1.433159113336448,
+      "paired_rows": 50
+    },
+    "20260918": {
+      "event_rate": 0.38,
+      "market_iv": 1.3901275051591464,
+      "paired_rows": 50
+    },
+    "20260921": {
+      "event_rate": 0.26,
+      "market_iv": 1.391410788022101,
+      "paired_rows": 50
+    },
+    "20260923": {
+      "event_rate": 0.14,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260924": {
+      "event_rate": 0.42,
+      "market_iv": 1.3487185040884437,
+      "paired_rows": 50
+    },
+    "20260928": {
+      "event_rate": 0.46,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20260929": {
+      "event_rate": 0.32,
+      "market_iv": 1.519576566973682,
+      "paired_rows": 50
+    },
+    "20260930": {
+      "event_rate": 0.44,
+      "market_iv": 1.5414948557104975,
+      "paired_rows": 50
+    },
+    "20261001": {
+      "event_rate": 0.72,
+      "market_iv": 1.5275570030494507,
+      "paired_rows": 50
+    },
+    "20261006": {
+      "event_rate": 0.36,
+      "market_iv": 1.5881949886018074,
+      "paired_rows": 50
+    },
+    "20261007": {
+      "event_rate": 0.4,
+      "market_iv": 1.5725563100987512,
+      "paired_rows": 50
+    },
+    "20261012": {
+      "event_rate": 0.28,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20261015": {
+      "event_rate": 0.44,
+      "market_iv": null,
+      "paired_rows": 0
+    },
+    "20261022": {
+      "event_rate": 0.6,
+      "market_iv": 1.6180186277675996,
+      "paired_rows": 50
+    },
+    "20261023": {
+      "event_rate": 0.62,
+      "market_iv": 1.732976327740887,
+      "paired_rows": 50
+    },
+    "20261027": {
+      "event_rate": 0.38,
+      "market_iv": 1.7565317549596617,
+      "paired_rows": 50
+    },
+    "20261030": {
+      "event_rate": 0.34,
+      "market_iv": null,
+      "paired_rows": 0
+    }
+  },
+  "feature_quantiles": {
+    "daily_iv": {
+      "0.01": 1.0059282585593685,
+      "0.25": 1.409442431343535,
+      "0.5": 1.6294602719748381,
+      "0.75": 1.933754384091169,
+      "0.99": 2.780261844255337
+    },
+    "prev_range": {
+      "0.01": 0.8329721851217413,
+      "0.25": 1.526218323586747,
+      "0.5": 2.0354879979247333,
+      "0.75": 2.804516312437638,
+      "0.99": 6.0279091597227
+    },
+    "market_iv": {
+      "0.01": 1.189602827343526,
+      "0.25": 1.505163099875297,
+      "0.5": 1.6013801337224254,
+      "0.75": 1.7589231029041004,
+      "0.99": 2.2857507617311814
+    },
+    "market_range": {
+      "0.01": 1.2548075728533048,
+      "0.25": 1.6766765378270923,
+      "0.5": 1.9739134043302682,
+      "0.75": 2.3084074936905807,
+      "0.99": 3.448260388721984
+    },
+    "log_rel_value": {
+      "0.01": -0.8639206645142187,
+      "0.25": -0.18700670899803296,
+      "0.5": 0.0,
+      "0.75": 0.18706700745795324,
+      "0.99": 1.4919391073970332
+    },
+    "log_median_value": {
+      "0.01": 20.704349689430988,
+      "0.25": 21.63977378061582,
+      "0.5": 22.08255081453901,
+      "0.75": 22.65605394360402,
+      "0.99": 24.1508341707939
+    },
+    "market_iv_iqr": {
+      "0.01": 0.27887419206839614,
+      "0.25": 0.35328371835569716,
+      "0.5": 0.3904231452588852,
+      "0.75": 0.4382613073260746,
+      "0.99": 0.6593536504156627
+    },
+    "market_range_iqr": {
+      "0.01": 0.5088432365105195,
+      "0.25": 0.8098745228243831,
+      "0.5": 0.9972493853101276,
+      "0.75": 1.1474330457897004,
+      "0.99": 1.9572656727931956
+    }
+  },
+  "raw_value_quantiles_rupees": {
+    "pvolume": {
+      "0.01": 836977362.5043,
+      "0.25": 2423084027.125,
+      "0.5": 4041812842.25,
+      "0.75": 7525835936.65,
+      "0.99": 36539573817.24251
+    },
+    "mddv_20": {
+      "0.01": 976723188.936,
+      "0.25": 2504004471.6,
+      "0.5": 3873717949.35,
+      "0.75": 6922528962.15,
+      "0.99": 30403624571.632084
+    }
+  },
+  "iv_correlation": {
+    "vix": {
+      "vix": 1.0,
+      "vix_1m": 0.870404724030789,
+      "vix_3m": 0.8042441841967474,
+      "vix_6m": 0.7578780063230137,
+      "vix_1y": 0.764709946457951,
+      "vix_zscore_smooth": 0.9205294173009283,
+      "vix_zscore_raw": 0.9203041713924031
+    },
+    "vix_1m": {
+      "vix": 0.870404724030789,
+      "vix_1m": 1.0,
+      "vix_3m": 0.9442956587946005,
+      "vix_6m": 0.8996158222436936,
+      "vix_1y": 0.8930956974228462,
+      "vix_zscore_smooth": 0.7274597267384544,
+      "vix_zscore_raw": 0.726700478650239
+    },
+    "vix_3m": {
+      "vix": 0.8042441841967474,
+      "vix_1m": 0.9442956587946005,
+      "vix_3m": 1.0,
+      "vix_6m": 0.9674344605416202,
+      "vix_1y": 0.9563275954483114,
+      "vix_zscore_smooth": 0.6653915964000393,
+      "vix_zscore_raw": 0.6646725072903862
+    },
+    "vix_6m": {
+      "vix": 0.7578780063230137,
+      "vix_1m": 0.8996158222436936,
+      "vix_3m": 0.9674344605416202,
+      "vix_6m": 1.0,
+      "vix_1y": 0.9964065719135782,
+      "vix_zscore_smooth": 0.685081998423908,
+      "vix_zscore_raw": 0.6843507123460255
+    },
+    "vix_1y": {
+      "vix": 0.764709946457951,
+      "vix_1m": 0.8930956974228462,
+      "vix_3m": 0.9563275954483114,
+      "vix_6m": 0.9964065719135782,
+      "vix_1y": 1.0,
+      "vix_zscore_smooth": 0.7111494728962439,
+      "vix_zscore_raw": 0.7104349473350831
+    },
+    "vix_zscore_smooth": {
+      "vix": 0.9205294173009283,
+      "vix_1m": 0.7274597267384544,
+      "vix_3m": 0.6653915964000393,
+      "vix_6m": 0.685081998423908,
+      "vix_1y": 0.7111494728962439,
+      "vix_zscore_smooth": 1.0,
+      "vix_zscore_raw": 0.9998953973015134
+    },
+    "vix_zscore_raw": {
+      "vix": 0.9203041713924031,
+      "vix_1m": 0.726700478650239,
+      "vix_3m": 0.6646725072903862,
+      "vix_6m": 0.6843507123460255,
+      "vix_1y": 0.7104349473350831,
+      "vix_zscore_smooth": 0.9998953973015134,
+      "vix_zscore_raw": 1.0
+    }
+  },
+  "range_iv_spearman": 0.41544401471041836,
+  "equal_6m_1y_fraction": 0.8083973979893554,
+  "target_rate_by_feature_quintiles": {
+    "daily_iv": [
+      {
+        "lower": 0.4388182345749917,
+        "upper": 1.3623907309515169,
+        "event_rate": 0.19497784342688332,
+        "rows": 677
+      },
+      {
+        "lower": 1.36302112969282,
+        "upper": 1.5408435823343178,
+        "event_rate": 0.3254437869822485,
+        "rows": 676
+      },
+      {
+        "lower": 1.5410325576852193,
+        "upper": 1.745672705415098,
+        "event_rate": 0.40384615384615385,
+        "rows": 676
+      },
+      {
+        "lower": 1.7457085463354602,
+        "upper": 2.0114858433781313,
+        "event_rate": 0.5281065088757396,
+        "rows": 676
+      },
+      {
+        "lower": 2.013197817419634,
+        "upper": 3.4663399404064523,
+        "event_rate": 0.6927621861152142,
+        "rows": 677
+      }
+    ],
+    "prev_range": [
+      {
+        "lower": 0.5516860906144404,
+        "upper": 1.4229449879303686,
+        "event_rate": 0.23833333333333334,
+        "rows": 600
+      },
+      {
+        "lower": 1.4230418943533698,
+        "upper": 1.8401856763925577,
+        "event_rate": 0.37833333333333335,
+        "rows": 600
+      },
+      {
+        "lower": 1.8417234066302044,
+        "upper": 2.2808927599346687,
+        "event_rate": 0.4533333333333333,
+        "rows": 600
+      },
+      {
+        "lower": 2.2809558291093452,
+        "upper": 3.0497856907352454,
+        "event_rate": 0.48333333333333334,
+        "rows": 600
+      },
+      {
+        "lower": 3.0519283328272095,
+        "upper": 11.24809530405874,
+        "event_rate": 0.615,
+        "rows": 600
+      }
+    ],
+    "market_iv": [
+      {
+        "lower": 1.189602827343526,
+        "upper": 1.4816811350091361,
+        "event_rate": 0.22857142857142856,
+        "rows": 700
+      },
+      {
+        "lower": 1.485577836830004,
+        "upper": 1.5484705914730288,
+        "event_rate": 0.39628040057224606,
+        "rows": 699
+      },
+      {
+        "lower": 1.5550738217970461,
+        "upper": 1.6458520180132474,
+        "event_rate": 0.38153846153846155,
+        "rows": 650
+      },
+      {
+        "lower": 1.6488772415378503,
+        "upper": 1.8386886080425318,
+        "event_rate": 0.5385714285714286,
+        "rows": 700
+      },
+      {
+        "lower": 1.8633511460031624,
+        "upper": 2.2857507617311814,
+        "event_rate": 0.6117103235747303,
+        "rows": 649
+      }
+    ],
+    "market_range": [
+      {
+        "lower": 1.2548075728533048,
+        "upper": 1.6372639682648293,
+        "event_rate": 0.225,
+        "rows": 600
+      },
+      {
+        "lower": 1.6418545937145341,
+        "upper": 1.879684451721196,
+        "event_rate": 0.30833333333333335,
+        "rows": 600
+      },
+      {
+        "lower": 1.883467149416716,
+        "upper": 2.0877274494892553,
+        "event_rate": 0.43666666666666665,
+        "rows": 600
+      },
+      {
+        "lower": 2.091026341612749,
+        "upper": 2.527009852495534,
+        "event_rate": 0.61,
+        "rows": 600
+      },
+      {
+        "lower": 2.6509919793588006,
+        "upper": 3.448260388721984,
+        "event_rate": 0.5883333333333334,
+        "rows": 600
+      }
+    ],
+    "log_rel_value": [
+      {
+        "lower": -1.282610490142094,
+        "upper": -0.25713114720452523,
+        "event_rate": 0.4102941176470588,
+        "rows": 680
+      },
+      {
+        "lower": -0.2569833738887013,
+        "upper": -0.012184016716684454,
+        "event_rate": 0.40795287187039764,
+        "rows": 679
+      },
+      {
+        "lower": -0.012080851366196299,
+        "upper": 0.002646961164355588,
+        "event_rate": 0.4455882352941177,
+        "rows": 680
+      },
+      {
+        "lower": 0.0029714367130431185,
+        "upper": 0.2781565527717511,
+        "event_rate": 0.41973490427098675,
+        "rows": 679
+      },
+      {
+        "lower": 0.27917744340886586,
+        "upper": 2.7375439587863184,
+        "event_rate": 0.4632352941176471,
+        "rows": 680
+      }
+    ],
+    "log_median_value": [
+      {
+        "lower": 20.376558268128605,
+        "upper": 21.550505520394694,
+        "event_rate": 0.34558823529411764,
+        "rows": 680
+      },
+      {
+        "lower": 21.551466054280493,
+        "upper": 21.87498399873244,
+        "event_rate": 0.4050073637702504,
+        "rows": 679
+      },
+      {
+        "lower": 21.87579840882677,
+        "upper": 22.272596737985687,
+        "event_rate": 0.4470588235294118,
+        "rows": 680
+      },
+      {
+        "lower": 22.27313613901934,
+        "upper": 22.81498462338151,
+        "event_rate": 0.47058823529411764,
+        "rows": 680
+      },
+      {
+        "lower": 22.815953192242873,
+        "upper": 24.79730742705424,
+        "event_rate": 0.4786450662739323,
+        "rows": 679
+      }
+    ]
+  }
+}

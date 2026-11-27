@@ -1,0 +1,6 @@
+__pycache__/
+.venv/
+eval_predictions/
+eval_score.json
+predictions/
+catboost_info/
